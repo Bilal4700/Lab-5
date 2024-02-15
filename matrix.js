@@ -66,6 +66,7 @@ const showResult2D = (title, containerId, dataArray) => {
         }
         table.prepend(tr);
     }
+
     let caption = table.createCaption();
     caption.textContent = title;
     container.appendChild(table);
@@ -206,4 +207,4 @@ const multiplyMatrices = (matrix1, matrix2) => {
  
     // Returning resultant matrix which is done after multiplication
     return product_matrix;
-};
+}
